@@ -151,7 +151,7 @@ const FeedPage: React.FC<FeedPageProps> = (props) => {
 
   /* ---------------------------- Randomise scenes ---------------------------- */
 
-  const [isRandomised, setIsRandomised] = useState(false);
+  const [isRandomised, setIsRandomised] = useState(true);
 
   /** Randomise the order of the items in the current playlist. */
   const handleRandomisingItemOrder = (items: IitemData[]) => {
